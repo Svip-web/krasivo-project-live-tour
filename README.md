@@ -1,2 +1,15 @@
-# krasivo-project-live-tour
-Mobile landing page for Krasivo Project x Yeezy online practicum
+# Krasivo Project × Yeezy
+
+Мобільний сайт онлайн-практикуму з екскурсією салоном Krasivo Project та порівнянням із Yeezy.
+
+Готовий сайт міститься в `dist/`. Це статичний HTML, CSS і JavaScript без етапу збірки. Реєстрацію обробляє офіційний віджет Leeloo.
+
+Для локального перегляду:
+
+```sh
+node server.mjs
+```
+
+Відкрийте http://127.0.0.1:4186/.
+
+GitHub Actions публікує папку `dist/` у GitHub Pages після оновлення гілки `main`. Публікацію також можна запустити вручну через вкладку Actions.
